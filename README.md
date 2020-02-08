@@ -6,6 +6,7 @@ Where I learn PWA.
 
 - [Your First Progressive App](https://codelabs.developers.google.com/codelabs/your-first-pwapp)
 - [Web App Manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest)
+- [Service worker の使用 - Web API | MDN](https://developer.mozilla.org/ja/docs/Web/API/Service_Worker_API/Using_Service_Workers)
 
 ## License
 
