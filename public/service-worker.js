@@ -101,9 +101,11 @@ self.addEventListener('fetch', (evt) => {
       caches
         .open(CACHE_NAME)
         .then((cache) =>
-          cache.match(evt.request).then((response) => response || fetch(evt.request))
-        );
-    )
+          cache
+            .match(evt.request)
+            .then((response) => response || fetch(evt.request))
+        )
+    );
   if (evt.request.mode !== 'navigate') {
     // Not a page navigation, bail
     return;
